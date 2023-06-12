@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title><style>
+        header{
+            background-color: rgb(2, 2, 46);
+            text-align: center;
+            margin: auto;
+            padding: 20px;
+        }
+        .link{
+            color: white;
+            font-size: 24px;
+            padding: 8px;
+        }
+        .link:hover{
+            color: red;
+
+        }
+        .link:active{
+            color: greenyellow;
+        }
+       h1{
+        text-align: center;
+        color: brown;
+       
+       }
+       form{
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: rgb(231, 229, 249);
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+       }
+       .input-box{
+            font-size: 18px;
+            padding: 18px;
+            margin-bottom: 36px;
+            border: 0;
+            border-bottom: 1px solid grey;
+            width: 100%;
+          
+        }
+        #wrapper{
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+        #submit{
+            background-color: blue;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+            font-size: 18px;
+            color: white;
+            border: none;
+            
+        }
+    </style>
+</head>
+<body style="background-color: rgb(246, 204, 204);">
+    <header>
+        <a class="link" href="home.html" target="blank"> Home</a>
+        <a class="link" href="about.html" target="blank"> About</a>
+        <a class="link" href="contact.html" target="blank"> Contact</a>
+     </header>
+
+     <form>
+        <div>
+            <h1> Contact Us !!</h1>
+        </div>
+        <div id="wrapper">
+            <div>
+                <input class="input-box" type="text" name="username" placeholder="Username">
+            </div>
+            <div>
+                <input class="input-box" type="email" name="email" placeholder="Email">
+            </div>
+            <div>
+                <input class="input-box" type="password" name="password" placeholder="Password">
+            </div>
+            <div>
+                <input class="input-box" type="password" name="confirm-password" placeholder="Confirm Password">
+            </div>
+            <input  type="submit" id="submit" value="Register">
+            </div>
+</body>
+</html>
